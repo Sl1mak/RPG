@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LocationButtonScript : MonoBehaviour
 {
-    public string mainName, sceneNameToLoad;
+    public string mainName, sceneNameIfEmpty, nameToLoadFromSave;
     public float scaleUp = 1.2f, scaleDuration = 0.2f;
 
     private bool isSelect;
+    private string sceneToLoad;
 
     private Vector3 startScale;
 
@@ -31,7 +32,10 @@ public class LocationButtonScript : MonoBehaviour
         noButtonText.color = whiteTransparentColor;
 
         locationTexts.SetActive(false);
-        loadPanel.DOFade(0, 2).OnComplete(() => { loadPanelAsGameObject.SetActive(false); }); 
+        loadPanel.DOFade(0, 2)/*.OnComplete(() => { loadPanelAsGameObject.SetActive(false); })*/;
+
+        sceneToLoad = PlayerPrefs.GetString(nameToLoadFromSave);
+        if (sceneToLoad == string.Empty) { sceneToLoad = sceneNameIfEmpty; }
     }
 
     public void OnPointerEnter()
@@ -75,7 +79,7 @@ public class LocationButtonScript : MonoBehaviour
 
     public void LoadLvl()
     {
-        loadPanelAsGameObject.SetActive(true);
-        loadPanel.DOFade(1, 2).OnComplete(() => { SceneManager.LoadScene(sceneNameToLoad); }); 
+        //loadPanelAsGameObject.SetActive(true);
+        loadPanel.DOFade(1, 2).OnComplete(() => { SceneManager.LoadScene(sceneToLoad); }); 
     }
 }

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\rpg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|d:\\unityprojects\\rpg\\assets\\scripts\\gamemenuscripts\\locationbuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemenuscripts\\locationbuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|d:\\unityprojects\\rpg\\assets\\scripts\\gamemenuscripts\\townscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemenuscripts\\townscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|d:\\unityprojects\\rpg\\assets\\scripts\\gamemenuscripts\\townbuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemenuscripts\\townbuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|D:\\UnityProjects\\rpg\\assets\\scripts\\gamemenuscripts\\gamemenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemenuscripts\\gamemenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|D:\\UnityProjects\\rpg\\assets\\scripts\\mainmenuscripts\\mainmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenuscripts\\mainmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|D:\\UnityProjects\\rpg\\assets\\scripts\\gamemenuscripts\\locationbuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C708C1-5F9E-2648-E605-8D49286552FD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemenuscripts\\locationbuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,19 +34,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainMenuScript.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\MainMenuScripts\\MainMenuScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuScripts\\MainMenuScript.cs",
-              "ToolTip": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\MainMenuScripts\\MainMenuScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainMenuScripts\\MainMenuScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABVAAAA",
+              "DocumentIndex": 1,
+              "Title": "TownButtonScript.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\GameMenuScripts\\TownButtonScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameMenuScripts\\TownButtonScript.cs",
+              "ToolTip": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\GameMenuScripts\\TownButtonScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameMenuScripts\\TownButtonScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAC3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T21:05:33.06Z"
+              "WhenOpened": "2024-12-14T20:02:05.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "TownScript.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\GameMenuScripts\\TownScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameMenuScripts\\TownScript.cs",
+              "ToolTip": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\GameMenuScripts\\TownScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameMenuScripts\\TownScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T16:41:08.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocationButtonScript.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\GameMenuScripts\\LocationButtonScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameMenuScripts\\LocationButtonScript.cs",
+              "ToolTip": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\GameMenuScripts\\LocationButtonScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameMenuScripts\\LocationButtonScript.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T06:40:32.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameMenuScript.cs",
               "DocumentMoniker": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\GameMenuScripts\\GameMenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameMenuScripts\\GameMenuScript.cs",
@@ -50,19 +81,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameMenuScripts\\GameMenuScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:48:47.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LocationButtonScript.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\GameMenuScripts\\LocationButtonScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameMenuScripts\\LocationButtonScript.cs",
-              "ToolTip": "D:\\UnityProjects\\rpg\\Assets\\Scripts\\GameMenuScripts\\LocationButtonScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameMenuScripts\\LocationButtonScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T06:40:32.482Z",
+              "WhenOpened": "2024-12-05T08:48:47.422Z",
               "EditorCaption": ""
             }
           ]
